@@ -49,7 +49,7 @@ var laterDate = new Date(2020, 11, 31);
 document.write("The later date is: " + laterDate.toDateString() +"<br>" );
 
 // Question # 09
-var ramadanStart = new Date(2015, 5, 18); 
+var ramadanStart = new Date(2024, 3, 12); 
 var currentDate = new Date();
 var timeDifference = currentDate - ramadanStart;
 var daysPast = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
